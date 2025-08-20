@@ -8,6 +8,16 @@ variable tenant_id {
   type        = string
 }
 
+variable client_id {
+  description = "The Azure tenant ID to use for the provider."
+  type        = string
+}
+
+variable client_secret {
+  description = "The Azure tenant ID to use for the provider."
+  type        = string
+}
+
 variable vm_password {
   description = "The password for the virtual machines. Ensure it meets Azure's password complexity requirements."
   type        = string
